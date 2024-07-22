@@ -1,0 +1,9 @@
+metric_category,scope,explanation_type,explainer,metric,n_features,value,time
+parsimony,local,rule_based,AnchorExplainer,ExecutionTimeMetric,10,11.458889365196228,114.98866963386536
+parsimony,local,feature_importance,LimeExplainer,ExecutionTimeMetric,10,1.0558846235275268,10.559839725494385
+parsimony,local,feature_importance,ShapExplainer,ExecutionTimeMetric,10,0.020385551452636718,0.20732808113098145
+parsimony,any,feature_importance,RandomFeatureImportanceExplainer,ExecutionTimeMetric,10,0.0,0.0
+parsimony,any,rule_based,RandomRuleExplainer,ExecutionTimeMetric,10,0.0,0.0004961490631103516
+parsimony,global,rule_based,SurrogateDecisionTreeExplainer,ExecutionTimeMetric,10,0.06021442413330078,0.6646401882171631
+parsimony,global,feature_importance,SurrogateLogisticRegressionExplainer,ExecutionTimeMetric,10,0.05088961124420166,0.55948805809021
+parsimony,global,feature_importance,SurrogateMultinomialNBExplainer,ExecutionTimeMetric,10,0.0058527708053588865,0.06447887420654297

@@ -1,0 +1,6 @@
+metric_category,scope,explanation_type,explainer,metric,n_features,value,time
+parsimony,local,rule_based,AnchorExplainer,AvgRuleLengthMetric,100,1.1,30.098767042160034
+stability,local,rule_based,AnchorExplainer,ChangeSeedMetric,100,1.0,0.7390396595001221
+contextfulness,local,rule_based,AnchorExplainer,RuleCoverageMetric,100,0.18578999999999998,33.29052686691284
+consistency,local,rule_based,AnchorExplainer,SensitivityMetric,100,1.0,0.6333916187286377
+completeness,local,rule_based,AnchorExplainer,AvgCorrectRuleMetric,100,0.26734800000000003,30.394383430480957
